@@ -50,7 +50,7 @@ https://advance-to-do.netlify.app/login
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/karthik-creation2311/advance_to-do.git
    ```
 
 2. Navigate to the project directory:
