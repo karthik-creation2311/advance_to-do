@@ -6,7 +6,7 @@ This Advanced To-Do App is a responsive web application built using **React** an
 ---
 
 ## live Link
-https://advance-to-do.netlify.app/login
+https://advance-to-do.netlify.app/
 
 ## Features
 
