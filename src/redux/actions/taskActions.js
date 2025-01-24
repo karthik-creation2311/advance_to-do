@@ -39,9 +39,10 @@ import {
   
   // Weather API Integration
   export const fetchWeatherForTask = (city) => {
+    const API_KEY = process.env.REACT_APP_API_KEY; 
     return async (dispatch) => {
       try {
-        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY&units=metric`);
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
         return response.data;
       } catch (error) {
         console.error('Weather fetch error', error);
